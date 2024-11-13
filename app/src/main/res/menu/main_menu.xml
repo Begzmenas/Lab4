@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/add_note"
+        android:title="@string/add_note"
+        android:titleTextColor="@color/green" />
+
+    <item
+        android:id="@+id/delete_note"
+        android:title="@string/delete_note"
+        android:titleTextColor="@color/green" />
+</menu>

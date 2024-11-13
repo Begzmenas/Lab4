@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/black">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/select_note_to_delete"
+        android:textColor="@color/green" />
+
+    <Spinner
+        android:id="@+id/spinnerNotes"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/edit_text_border"
+        android:textColor="@color/green" />
+
+    <Button
+        android:id="@+id/btnDelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/delete_note"
+        android:textColor="@color/green"
+        android:layout_marginTop="16dp"
+        android:minHeight="48dp"
+        android:minWidth="96dp"
+        android:background="@drawable/button_border"
+        android:padding="8dp" />
+</LinearLayout>

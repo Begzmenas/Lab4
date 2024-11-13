@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Notes App</string>
+    <string name="add_note">Add Note</string>
+    <string name="delete_note">Delete Note</string>
+    <string name="note_name">Note Name</string>
+    <string name="note_content">Note Content</string>
+    <string name="save_note">Save Note</string>
+    <string name="select_note_to_delete">Select Note to Delete</string>
+    <string name="main_activity_title">Notes</string>
+    <string name="add_note_title">Add New Note</string>
+    <string name="note_name_hint">Enter note title</string>
+    <string name="note_content_hint">Enter note content</string>
+    <string name="save_note_success">Note saved</string>
+    <string name="save_note_failure">Failed to save note</string>
+    <string name="empty_fields">Please enter both name and content</string>
+</resources>
